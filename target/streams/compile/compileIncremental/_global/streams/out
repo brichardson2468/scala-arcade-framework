@@ -2,5 +2,63 @@
 [0m[[0m[0mdebug[0m] [0m[0mIncrementalCompile.incrementalCompile[0m
 [0m[[0m[0mdebug[0m] [0m[0mprevious = Stamps for: 80 products, 7 sources, 2 libraries[0m
 [0m[[0m[0mdebug[0m] [0m[0mcurrent source = Set(${BASE}/src/main/scala/edu/colorado/csci3155/project3/MainEventLoop.scala, ${BASE}/src/main/scala/edu/colorado/csci3155/project3/ArcadeGame.scala, ${BASE}/src/main/scala/edu/colorado/csci3155/project3/Event.scala, ${BASE}/src/main/scala/edu/colorado/csci3155/project3/GameOfLifeAnimation.scala, ${BASE}/src/main/scala/edu/colorado/csci3155/project3/TrafficLightAnimation.scala, ${BASE}/src/main/scala/edu/colorado/csci3155/project3/Entity.scala, ${BASE}/src/main/scala/edu/colorado/csci3155/project3/NailedIt.scala)[0m
-[0m[[0m[0mdebug[0m] [0m[0m> initialChanges = InitialChanges(Changes(added = Set(), removed = Set(), changed = Set(), unmodified = ...),Set(),Set(),API Changes: Set())[0m
-[0m[[0m[0mdebug[0m] [0m[0mNo changes[0m
+[0m[[0m[0mdebug[0m] [0m[0m> initialChanges = InitialChanges(Changes(added = Set(), removed = Set(), changed = Set(${BASE}/src/main/scala/edu/colorado/csci3155/project3/MainEventLoop.scala), unmodified = ...),Set(),Set(),API Changes: Set())[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial source changes:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	removed: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	added: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	modified: Set(${BASE}/src/main/scala/edu/colorado/csci3155/project3/MainEventLoop.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated products: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mExternal API changes: API Changes: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mModified binary dependencies: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial directly invalidated classes: Set(edu.colorado.csci3155.project3.MainEventLoop, edu.colorado.csci3155.project3.MyDefaultCanvas)[0m
+[0m[[0m[0mdebug[0m] [0m[0mSources indirectly invalidated by:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	product: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	binary dep: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	external source: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated classes: Set(edu.colorado.csci3155.project3.MainEventLoop, edu.colorado.csci3155.project3.MyDefaultCanvas)[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated sources:Set(${BASE}/src/main/scala/edu/colorado/csci3155/project3/MainEventLoop.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: edu.colorado.csci3155.project3.MainEventLoop, edu.colorado.csci3155.project3.MyDefaultCanvas[0m
+[0m[[0m[0mdebug[0m] [0m[0mcompilation cycle 1[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /Users/bradrichardson/Desktop/mini_project3/target/scala-2.12/classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.12:1.10.3:compile for Scala 2.12.20[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 17ec5140 for Scala compiler version 2.12.20[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] The Scala compiler is invoked with:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-bootclasspath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/Users/bradrichardson/.sbt/boot/scala-2.12.20/lib/scala-library.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-classpath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/Users/bradrichardson/Desktop/mini_project3/target/scala-2.12/classes:/Users/bradrichardson/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-swing_2.12/2.0.3/scala-swing_2.12-2.0.3.jar:/Users/bradrichardson/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalactic/scalactic_2.12/3.0.5/scalactic_2.12-3.0.5.jar:/Users/bradrichardson/.sbt/boot/scala-2.12.20/lib/scala-reflect.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mScala compilation took 2.397622292 s[0m
+[0m[[0m[0mdebug[0m] [0m[0mdone compiling[0m
+[0m[[0m[0mdebug[0m] [0m[0mNew invalidations:[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: [0m
+[0m[[0m[0mdebug[0m] [0m[0mPreviously invalidated, but (transitively) depend on new invalidations:[0m
+[0m[[0m[0mdebug[0m] [0m[0mFinal step, transitive dependencies:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: edu.colorado.csci3155.project3.MainEventLoop, edu.colorado.csci3155.project3.MyDefaultCanvas[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding edu.colorado.csci3155.project3.Balloon by edu.colorado.csci3155.project3.MainEventLoop[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding edu.colorado.csci3155.project3.Node by edu.colorado.csci3155.project3.MainEventLoop[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding edu.colorado.csci3155.project3.Entity by edu.colorado.csci3155.project3.MainEventLoop[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding edu.colorado.csci3155.project3.BaloonBurst by edu.colorado.csci3155.project3.Entity[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding edu.colorado.csci3155.project3.NodeStatus by edu.colorado.csci3155.project3.Entity[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding edu.colorado.csci3155.project3.EmergencyEW by edu.colorado.csci3155.project3.Entity[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding edu.colorado.csci3155.project3.GameOfLifeAnimation by edu.colorado.csci3155.project3.Entity[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding edu.colorado.csci3155.project3.Nail by edu.colorado.csci3155.project3.Entity[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding edu.colorado.csci3155.project3.ShootDart by edu.colorado.csci3155.project3.Entity[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding edu.colorado.csci3155.project3.ArcadeGameManager by edu.colorado.csci3155.project3.Entity[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding edu.colorado.csci3155.project3.DartShooter by edu.colorado.csci3155.project3.Entity[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding edu.colorado.csci3155.project3.Move by edu.colorado.csci3155.project3.Entity[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding edu.colorado.csci3155.project3.EmergencyNS by edu.colorado.csci3155.project3.Entity[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding edu.colorado.csci3155.project3.Dart by edu.colorado.csci3155.project3.Entity[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding edu.colorado.csci3155.project3.Event by edu.colorado.csci3155.project3.Entity[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding edu.colorado.csci3155.project3.NailedIt by edu.colorado.csci3155.project3.Event[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding edu.colorado.csci3155.project3.TrafficLightAnimation by edu.colorado.csci3155.project3.Event[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding edu.colorado.csci3155.project3.ArcadeBaloon by edu.colorado.csci3155.project3.Event[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding edu.colorado.csci3155.project3.ArcadeGame by edu.colorado.csci3155.project3.Event[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding edu.colorado.csci3155.project3.Signal by edu.colorado.csci3155.project3.Event[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding edu.colorado.csci3155.project3.BaloonEscaped by edu.colorado.csci3155.project3.Event[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding edu.colorado.csci3155.project3.ClickHandler by edu.colorado.csci3155.project3.Event[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding edu.colorado.csci3155.project3.Boom by edu.colorado.csci3155.project3.Event[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding edu.colorado.csci3155.project3.Prick by edu.colorado.csci3155.project3.Event[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated macros due to upstream dependencies change: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mNo classes were invalidated.[0m

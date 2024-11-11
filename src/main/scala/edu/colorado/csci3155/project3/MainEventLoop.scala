@@ -113,10 +113,18 @@ class MainEventLoop {
         (lDoesNotApply ++ newEntities, newEvents)
     }
     */
-    def processOneEvent (l: List[Entity]) (ev: Event): (List[Entity], List[Event]) = {
-        /*-- TODO: implement processOneEventMutable without using for loops or var --*/
-      ???
-
+    def processOneEvent(l: List[Entity])(ev: Event): (List[Entity], List[Event]) = {
+        val (lApplies, lDoesNotApply) = partition(l)(ev)
+        
+        // Use foldLeft to accumulate both new entities and events
+        val (newEntities, newEvents) = lApplies.foldLeft((List[Entity](), List[Event]())) {
+            case ((accEntities, accEvents), entity) =>
+                val (entityList, eventList) = entity.handleEvent(this)(ev)
+                (accEntities ++ entityList, accEvents ++ eventList)
+        }
+        
+        // Combine non-applicable entities with new entities, and return with new events
+        (lDoesNotApply ++ newEntities, newEvents)
     }
 
 
@@ -142,8 +150,12 @@ class MainEventLoop {
     }
    */
     final def performOneTransition: (List[Entity], List[Event]) = {
-        /*-- TODO : implement performOneTransitionMutable without using for loops or var --*/
-           ???
+        // Use foldLeft to process each event, accumulating new entities and events
+        events.foldLeft((entities, List[Event]())) {
+            case ((currentEntities, accumulatedEvents), event) =>
+                val (newEntities, newEvents) = processOneEvent(currentEntities)(event)
+                (newEntities, newEvents ++ accumulatedEvents)
+        }
     }
 
 
