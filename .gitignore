@@ -1,0 +1,47 @@
+# Bloop generated files
+.bloop/
+.bsp/
+.metals/
+.vscode/
+
+# sbt specific files
+target/
+project/target/
+project/project/
+
+# IntelliJ IDEA specific files
+.idea/
+*.iml
+*.iws
+out/
+
+# MacOS specific files
+.DS_Store
+
+# Log files
+*.log
+
+# Compiled class files
+*.class
+
+# Scala specific files
+*.cache
+*.class
+*.log
+*.project
+*.tmp
+*.bak
+*.swp
+
+# Package files
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# sbt specific files
+lib_managed/
+src_managed/
