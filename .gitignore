@@ -45,3 +45,7 @@ out/
 # sbt specific files
 lib_managed/
 src_managed/
+
+# Maven specific files
+log/
+target/
