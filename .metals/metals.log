@@ -1,0 +1,377 @@
+2024.11.07 19:12:30 INFO  Started: Metals version 1.4.0 in folders '/Users/bradrichardson/Desktop/csci3155_project3_f20_challenge_with_mods' for client Visual Studio Code 1.95.1.
+2024.11.07 19:12:31 WARN  Flyway upgrade recommended: H2 2.3.232 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.224.
+2024.11.07 19:12:35 INFO  running '/opt/homebrew/bin/sbt -Dbloop.export-jar-classifiers=sources bloopInstall'
+2024.11.07 19:12:35 WARN  no build target for: /Users/bradrichardson/Desktop/csci3155_project3_f20_challenge_with_mods/project/metals.sbt
+2024.11.07 19:12:35 WARN  no build target for: /Users/bradrichardson/Desktop/csci3155_project3_f20_challenge_with_mods/project/project/metals.sbt
+2024.11.07 19:12:35 INFO  no build target found for /Users/bradrichardson/Desktop/csci3155_project3_f20_challenge_with_mods/project/metals.sbt. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.07 19:12:36 ERROR Nov 07, 2024 7:12:36 PM org.jline.utils.Log logr
+2024.11.07 19:12:36 ERROR WARNING: Unable to create a system terminal, creating a dumb terminal (enable debug logging for more information)
+2024.11.07 19:12:37 INFO  [info] Updated file /Users/bradrichardson/Desktop/csci3155_project3_f20_challenge_with_mods/project/build.properties: set sbt.version to 1.10.3
+2024.11.07 19:12:37 INFO  [info] welcome to sbt 1.10.3 (Homebrew Java 23.0.1)
+2024.11.07 19:12:37 INFO  no build target found for /Users/bradrichardson/Desktop/csci3155_project3_f20_challenge_with_mods/project/project/metals.sbt. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.07 19:12:38 INFO  [info] loading settings for project csci3155_project3_f20_challenge_with_mods-build-build from metals.sbt ...
+2024.11.07 19:12:38 INFO  [info] loading project definition from /Users/bradrichardson/Desktop/csci3155_project3_f20_challenge_with_mods/project/project
+2024.11.07 19:12:39 ERROR Downloading https://repo1.maven.org/maven2/ch/epfl/scala/sbt-bloop_2.12_1.0/2.0.3/sbt-bloop_2.12_1.0-2.0.3.pom
+2024.11.07 19:12:39 INFO  
+2024.11.07 19:12:39 INFO    | => csci3155_project3_f20_challenge_with_mods-build-build / update 0s
+2024.11.07 19:12:39 ERROR Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/sbt-bloop_2.12_1.0/2.0.3/sbt-bloop_2.12_1.0-2.0.3.pom
+2024.11.07 19:12:39 ERROR Downloading https://repo1.maven.org/maven2/ch/epfl/scala/bloop-config_2.12/2.0.3/bloop-config_2.12-2.0.3.pom
+2024.11.07 19:12:39 ERROR Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/bloop-config_2.12/2.0.3/bloop-config_2.12-2.0.3.pom
+2024.11.07 19:12:39 ERROR Downloading https://repo1.maven.org/maven2/ch/epfl/scala/bloop-config_2.12/2.0.3/bloop-config_2.12-2.0.3.jar
+2024.11.07 19:12:39 ERROR Downloading https://repo1.maven.org/maven2/ch/epfl/scala/sbt-bloop_2.12_1.0/2.0.3/sbt-bloop_2.12_1.0-2.0.3.jar
+2024.11.07 19:12:39 ERROR Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/bloop-config_2.12/2.0.3/bloop-config_2.12-2.0.3.jar
+2024.11.07 19:12:39 ERROR Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/sbt-bloop_2.12_1.0/2.0.3/sbt-bloop_2.12_1.0-2.0.3.jar
+2024.11.07 19:12:39 INFO  
+2024.11.07 19:12:39 INFO    | => csci3155_project3_f20_challenge_with_mods-build-build / Compile / compileIncremental 0s
+2024.11.07 19:12:40 INFO  [info] loading settings for project csci3155_project3_f20_challenge_with_mods-build from metals.sbt ...
+2024.11.07 19:12:40 INFO  [info] loading project definition from /Users/bradrichardson/Desktop/csci3155_project3_f20_challenge_with_mods/project
+2024.11.07 19:12:40 INFO  
+2024.11.07 19:12:40 INFO    | => csci3155_project3_f20_challenge_with_mods-build / update 0s
+2024.11.07 19:12:40 INFO    | => csci3155_project3_f20_challenge_with_mods-build / updateSbtClassifiers 0s
+2024.11.07 19:12:41 ERROR Downloading https://repo1.maven.org/maven2/org/scala-sbt/actions_2.12/1.10.3/actions_2.12-1.10.3-sources.jar
+2024.11.07 19:12:41 ERROR Downloading https://repo1.maven.org/maven2/org/scala-sbt/command_2.12/1.10.3/command_2.12-1.10.3-sources.jar
+2024.11.07 19:12:41 ERROR Downloading https://repo1.maven.org/maven2/org/scala-sbt/task-system_2.12/1.10.3/task-system_2.12-1.10.3-sources.jar
+2024.11.07 19:12:41 ERROR Downloading https://repo1.maven.org/maven2/org/jline/jline-reader/3.27.0/jline-reader-3.27.0-sources.jar
+2024.11.07 19:12:41 ERROR Downloading https://repo1.maven.org/maven2/org/scala-sbt/util-tracking_2.12/1.10.3/util-tracking_2.12-1.10.3-sources.jar
+2024.11.07 19:12:41 ERROR Downloading https://repo1.maven.org/maven2/org/scala-sbt/launcher-interface/1.4.4/launcher-interface-1.4.4-sources.jar
+2024.11.07 19:12:41 ERROR Downloaded https://repo1.maven.org/maven2/org/scala-sbt/actions_2.12/1.10.3/actions_2.12-1.10.3-sources.jar
+2024.11.07 19:12:41 ERROR Downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.20/scala-library-2.12.20-sources.jar
+2024.11.07 19:12:41 ERROR Downloaded https://repo1.maven.org/maven2/org/jline/jline-reader/3.27.0/jline-reader-3.27.0-sources.jar
+2024.11.07 19:12:41 ERROR Downloading https://repo1.maven.org/maven2/org/jline/jline-terminal/3.27.0/jline-terminal-3.27.0-sources.jar
+2024.11.07 19:12:41 ERROR Downloaded https://repo1.maven.org/maven2/org/jline/jline-terminal/3.27.0/jline-terminal-3.27.0-sources.jar
+2024.11.07 19:12:41 ERROR Downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-apiinfo_2.12/1.10.3/zinc-apiinfo_2.12-1.10.3-sources.jar
+2024.11.07 19:12:41 ERROR Downloaded https://repo1.maven.org/maven2/org/scala-sbt/launcher-interface/1.4.4/launcher-interface-1.4.4-sources.jar
+2024.11.07 19:12:41 ERROR Downloading https://repo1.maven.org/maven2/org/scala-sbt/compiler-bridge_2.12/1.10.3/compiler-bridge_2.12-1.10.3-sources.jar
+2024.11.07 19:12:41 ERROR Downloaded https://repo1.maven.org/maven2/org/scala-sbt/util-tracking_2.12/1.10.3/util-tracking_2.12-1.10.3-sources.jar
+2024.11.07 19:12:41 ERROR Downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-compile_2.12/1.10.3/zinc-compile_2.12-1.10.3-sources.jar
+2024.11.07 19:12:41 ERROR Downloaded https://repo1.maven.org/maven2/org/scala-sbt/task-system_2.12/1.10.3/task-system_2.12-1.10.3-sources.jar
+2024.11.07 19:12:41 ERROR Downloading https://repo1.maven.org/maven2/ch/epfl/scala/bloop-config_2.12/2.0.3/bloop-config_2.12-2.0.3-sources.jar
+2024.11.07 19:12:41 ERROR Downloaded https://repo1.maven.org/maven2/org/scala-sbt/zinc-apiinfo_2.12/1.10.3/zinc-apiinfo_2.12-1.10.3-sources.jar
+2024.11.07 19:12:41 ERROR Downloading https://repo1.maven.org/maven2/org/scala-sbt/util-cache_2.12/1.10.3/util-cache_2.12-1.10.3-sources.jar
+2024.11.07 19:12:41 ERROR Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.20/scala-library-2.12.20-sources.jar
+2024.11.07 19:12:41 ERROR Downloading https://repo1.maven.org/maven2/org/scala-sbt/collections_2.12/1.10.3/collections_2.12-1.10.3-sources.jar
+2024.11.07 19:12:41 ERROR Downloaded https://repo1.maven.org/maven2/org/scala-sbt/command_2.12/1.10.3/command_2.12-1.10.3-sources.jar
+2024.11.07 19:12:41 ERROR Downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc_2.12/1.10.3/zinc_2.12-1.10.3-sources.jar
+2024.11.07 19:12:41 ERROR Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/bloop-config_2.12/2.0.3/bloop-config_2.12-2.0.3-sources.jar
+2024.11.07 19:12:41 ERROR Downloading https://repo1.maven.org/maven2/org/jline/jline-terminal-jna/3.27.0/jline-terminal-jna-3.27.0-sources.jar
+2024.11.07 19:12:41 ERROR Downloaded https://repo1.maven.org/maven2/org/scala-sbt/zinc-compile_2.12/1.10.3/zinc-compile_2.12-1.10.3-sources.jar
+2024.11.07 19:12:41 ERROR Downloading https://repo1.maven.org/maven2/org/scala-sbt/io_2.12/1.10.1/io_2.12-1.10.1-sources.jar
+2024.11.07 19:12:41 ERROR Downloaded https://repo1.maven.org/maven2/org/scala-sbt/util-cache_2.12/1.10.3/util-cache_2.12-1.10.3-sources.jar
+2024.11.07 19:12:41 ERROR Downloading https://repo1.maven.org/maven2/org/scala-sbt/test-agent/1.10.3/test-agent-1.10.3-sources.jar
+2024.11.07 19:12:41 ERROR Downloaded https://repo1.maven.org/maven2/org/scala-sbt/collections_2.12/1.10.3/collections_2.12-1.10.3-sources.jar
+2024.11.07 19:12:41 ERROR Downloading https://repo1.maven.org/maven2/net/java/dev/jna/jna-platform/5.12.0/jna-platform-5.12.0-sources.jar
+2024.11.07 19:12:41 ERROR Downloaded https://repo1.maven.org/maven2/org/scala-sbt/compiler-bridge_2.12/1.10.3/compiler-bridge_2.12-1.10.3-sources.jar
+2024.11.07 19:12:41 ERROR Downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-lm-integration_2.12/1.10.3/zinc-lm-integration_2.12-1.10.3-sources.jar
+2024.11.07 19:12:41 ERROR Downloaded https://repo1.maven.org/maven2/org/scala-sbt/zinc_2.12/1.10.3/zinc_2.12-1.10.3-sources.jar
+2024.11.07 19:12:41 ERROR Downloading https://repo1.maven.org/maven2/org/jline/jline-builtins/3.27.0/jline-builtins-3.27.0-sources.jar
+2024.11.07 19:12:41 ERROR Downloaded https://repo1.maven.org/maven2/org/jline/jline-terminal-jna/3.27.0/jline-terminal-jna-3.27.0-sources.jar
+2024.11.07 19:12:41 ERROR Downloading https://repo1.maven.org/maven2/net/java/dev/jna/jna/5.15.0/jna-5.15.0-sources.jar
+2024.11.07 19:12:41 ERROR Downloaded https://repo1.maven.org/maven2/org/scala-sbt/test-agent/1.10.3/test-agent-1.10.3-sources.jar
+2024.11.07 19:12:41 ERROR Downloading https://repo1.maven.org/maven2/org/scala-sbt/main_2.12/1.10.3/main_2.12-1.10.3-sources.jar
+2024.11.07 19:12:41 ERROR Downloaded https://repo1.maven.org/maven2/org/scala-sbt/zinc-lm-integration_2.12/1.10.3/zinc-lm-integration_2.12-1.10.3-sources.jar
+2024.11.07 19:12:41 ERROR Downloading https://repo1.maven.org/maven2/org/scala-sbt/core-macros_2.12/1.10.3/core-macros_2.12-1.10.3-sources.jar
+2024.11.07 19:12:41 ERROR Downloaded https://repo1.maven.org/maven2/org/scala-sbt/io_2.12/1.10.1/io_2.12-1.10.1-sources.jar
+2024.11.07 19:12:41 ERROR Downloading https://repo1.maven.org/maven2/org/scala-sbt/librarymanagement-core_2.12/1.10.2/librarymanagement-core_2.12-1.10.2-sources.jar
+2024.11.07 19:12:41 ERROR Downloaded https://repo1.maven.org/maven2/org/jline/jline-builtins/3.27.0/jline-builtins-3.27.0-sources.jar
+2024.11.07 19:12:41 ERROR Downloading https://repo1.maven.org/maven2/org/scala-sbt/util-relation_2.12/1.10.3/util-relation_2.12-1.10.3-sources.jar
+2024.11.07 19:12:41 ERROR Downloaded https://repo1.maven.org/maven2/net/java/dev/jna/jna/5.15.0/jna-5.15.0-sources.jar
+2024.11.07 19:12:41 ERROR Downloading https://repo1.maven.org/maven2/org/scala-sbt/sbt/1.10.3/sbt-1.10.3-sources.jar
+2024.11.07 19:12:41 ERROR Downloaded https://repo1.maven.org/maven2/org/scala-sbt/core-macros_2.12/1.10.3/core-macros_2.12-1.10.3-sources.jar
+2024.11.07 19:12:41 ERROR Downloading https://repo1.maven.org/maven2/org/scala-sbt/completion_2.12/1.10.3/completion_2.12-1.10.3-sources.jar
+2024.11.07 19:12:41 INFO  
+2024.11.07 19:12:41 ERROR Downloaded https://repo1.maven.org/maven2/org/scala-sbt/util-relation_2.12/1.10.3/util-relation_2.12-1.10.3-sources.jar
+2024.11.07 19:12:41 ERROR Downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-persist-core-assembly/1.10.3/zinc-persist-core-assembly-1.10.3-sources.jar
+2024.11.07 19:12:41 INFO    | => csci3155_project3_f20_challenge_with_mods-build / update 0s
+2024.11.07 19:12:41 INFO    | => csci3155_project3_f20_challenge_with_mods-build / updateSbtClassifiers 0s
+2024.11.07 19:12:41 ERROR Downloaded https://repo1.maven.org/maven2/org/scala-sbt/sbt/1.10.3/sbt-1.10.3-sources.jar
+2024.11.07 19:12:41 ERROR Downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-persist_2.12/1.10.3/zinc-persist_2.12-1.10.3-sources.jar
+2024.11.07 19:12:41 ERROR Downloaded https://repo1.maven.org/maven2/org/scala-sbt/librarymanagement-core_2.12/1.10.2/librarymanagement-core_2.12-1.10.2-sources.jar
+2024.11.07 19:12:41 ERROR Downloading https://repo1.maven.org/maven2/org/scala-sbt/ipcsocket/ipcsocket/1.6.3/ipcsocket-1.6.3-sources.jar
+2024.11.07 19:12:41 ERROR Downloaded https://repo1.maven.org/maven2/org/scala-sbt/completion_2.12/1.10.3/completion_2.12-1.10.3-sources.jar
+2024.11.07 19:12:41 ERROR Downloading https://repo1.maven.org/maven2/org/scala-sbt/run_2.12/1.10.3/run_2.12-1.10.3-sources.jar
+2024.11.07 19:12:41 ERROR Downloaded https://repo1.maven.org/maven2/net/java/dev/jna/jna-platform/5.12.0/jna-platform-5.12.0-sources.jar
+2024.11.07 19:12:41 ERROR Downloading https://repo1.maven.org/maven2/org/scala-sbt/logic_2.12/1.10.3/logic_2.12-1.10.3-sources.jar
+2024.11.07 19:12:41 ERROR Downloaded https://repo1.maven.org/maven2/org/scala-sbt/zinc-persist-core-assembly/1.10.3/zinc-persist-core-assembly-1.10.3-sources.jar
+2024.11.07 19:12:41 ERROR Downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-classpath_2.12/1.10.3/zinc-classpath_2.12-1.10.3-sources.jar
+2024.11.07 19:12:41 ERROR Downloaded https://repo1.maven.org/maven2/org/scala-sbt/main_2.12/1.10.3/main_2.12-1.10.3-sources.jar
+2024.11.07 19:12:41 ERROR Downloading https://repo1.maven.org/maven2/org/scala-sbt/util-logging_2.12/1.10.3/util-logging_2.12-1.10.3-sources.jar
+2024.11.07 19:12:41 ERROR Downloaded https://repo1.maven.org/maven2/org/scala-sbt/zinc-persist_2.12/1.10.3/zinc-persist_2.12-1.10.3-sources.jar
+2024.11.07 19:12:41 ERROR Downloading https://repo1.maven.org/maven2/org/jline/jline-native/3.27.0/jline-native-3.27.0-sources.jar
+2024.11.07 19:12:41 ERROR Downloaded https://repo1.maven.org/maven2/org/scala-sbt/run_2.12/1.10.3/run_2.12-1.10.3-sources.jar
+2024.11.07 19:12:41 ERROR Downloading https://repo1.maven.org/maven2/org/scala-sbt/testing_2.12/1.10.3/testing_2.12-1.10.3-sources.jar
+2024.11.07 19:12:41 ERROR Downloaded https://repo1.maven.org/maven2/org/scala-sbt/ipcsocket/ipcsocket/1.6.3/ipcsocket-1.6.3-sources.jar
+2024.11.07 19:12:41 ERROR Downloading https://repo1.maven.org/maven2/org/scala-sbt/protocol_2.12/1.10.3/protocol_2.12-1.10.3-sources.jar
+2024.11.07 19:12:41 ERROR Downloaded https://repo1.maven.org/maven2/org/scala-sbt/zinc-classpath_2.12/1.10.3/zinc-classpath_2.12-1.10.3-sources.jar
+2024.11.07 19:12:41 ERROR Downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-compile-core_2.12/1.10.3/zinc-compile-core_2.12-1.10.3-sources.jar
+2024.11.07 19:12:41 ERROR Downloaded https://repo1.maven.org/maven2/org/scala-sbt/logic_2.12/1.10.3/logic_2.12-1.10.3-sources.jar
+2024.11.07 19:12:41 ERROR Downloading https://repo1.maven.org/maven2/org/scala-sbt/tasks_2.12/1.10.3/tasks_2.12-1.10.3-sources.jar
+2024.11.07 19:12:41 ERROR Downloaded https://repo1.maven.org/maven2/org/scala-sbt/testing_2.12/1.10.3/testing_2.12-1.10.3-sources.jar
+2024.11.07 19:12:41 ERROR Downloading https://repo1.maven.org/maven2/ch/epfl/scala/sbt-bloop_2.12_1.0/2.0.3/sbt-bloop_2.12_1.0-2.0.3-sources.jar
+2024.11.07 19:12:41 ERROR Downloaded https://repo1.maven.org/maven2/org/jline/jline-native/3.27.0/jline-native-3.27.0-sources.jar
+2024.11.07 19:12:41 ERROR Downloading https://repo1.maven.org/maven2/org/scala-sbt/main-settings_2.12/1.10.3/main-settings_2.12-1.10.3-sources.jar
+2024.11.07 19:12:41 ERROR Downloaded https://repo1.maven.org/maven2/org/scala-sbt/util-logging_2.12/1.10.3/util-logging_2.12-1.10.3-sources.jar
+2024.11.07 19:12:41 ERROR Downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-core_2.12/1.10.3/zinc-core_2.12-1.10.3-sources.jar
+2024.11.07 19:12:41 ERROR Downloaded https://repo1.maven.org/maven2/org/scala-sbt/zinc-compile-core_2.12/1.10.3/zinc-compile-core_2.12-1.10.3-sources.jar
+2024.11.07 19:12:41 ERROR Downloading https://repo1.maven.org/maven2/org/scala-sbt/util-control_2.12/1.10.3/util-control_2.12-1.10.3-sources.jar
+2024.11.07 19:12:41 ERROR Downloaded https://repo1.maven.org/maven2/org/scala-sbt/protocol_2.12/1.10.3/protocol_2.12-1.10.3-sources.jar
+2024.11.07 19:12:41 ERROR Downloading https://repo1.maven.org/maven2/org/scala-sbt/scripted-plugin_2.12/1.10.3/scripted-plugin_2.12-1.10.3-sources.jar
+2024.11.07 19:12:41 ERROR Downloaded https://repo1.maven.org/maven2/org/scala-sbt/tasks_2.12/1.10.3/tasks_2.12-1.10.3-sources.jar
+2024.11.07 19:12:41 ERROR Downloading https://repo1.maven.org/maven2/org/scala-sbt/compiler-interface/1.10.3/compiler-interface-1.10.3-sources.jar
+2024.11.07 19:12:41 ERROR Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/sbt-bloop_2.12_1.0/2.0.3/sbt-bloop_2.12_1.0-2.0.3-sources.jar
+2024.11.07 19:12:41 ERROR Downloading https://repo1.maven.org/maven2/org/jline/jline-style/3.27.0/jline-style-3.27.0-sources.jar
+2024.11.07 19:12:41 ERROR Downloaded https://repo1.maven.org/maven2/org/scala-sbt/main-settings_2.12/1.10.3/main-settings_2.12-1.10.3-sources.jar
+2024.11.07 19:12:41 ERROR Downloading https://repo1.maven.org/maven2/org/jline/jline-terminal-jansi/3.27.0/jline-terminal-jansi-3.27.0-sources.jar
+2024.11.07 19:12:41 ERROR Downloaded https://repo1.maven.org/maven2/org/scala-sbt/zinc-core_2.12/1.10.3/zinc-core_2.12-1.10.3-sources.jar
+2024.11.07 19:12:41 ERROR Downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.20/scala-reflect-2.12.20-sources.jar
+2024.11.07 19:12:41 ERROR Downloaded https://repo1.maven.org/maven2/org/scala-sbt/scripted-plugin_2.12/1.10.3/scripted-plugin_2.12-1.10.3-sources.jar
+2024.11.07 19:12:41 ERROR Downloading https://repo1.maven.org/maven2/org/scala-sbt/util-interface/1.10.3/util-interface-1.10.3-sources.jar
+2024.11.07 19:12:41 ERROR Downloaded https://repo1.maven.org/maven2/org/scala-sbt/util-control_2.12/1.10.3/util-control_2.12-1.10.3-sources.jar
+2024.11.07 19:12:41 ERROR Downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-classfile_2.12/1.10.3/zinc-classfile_2.12-1.10.3-sources.jar
+2024.11.07 19:12:41 ERROR Downloaded https://repo1.maven.org/maven2/org/scala-sbt/compiler-interface/1.10.3/compiler-interface-1.10.3-sources.jar
+2024.11.07 19:12:41 ERROR Downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.20/scala-compiler-2.12.20-sources.jar
+2024.11.07 19:12:41 ERROR Downloaded https://repo1.maven.org/maven2/org/jline/jline-terminal-jansi/3.27.0/jline-terminal-jansi-3.27.0-sources.jar
+2024.11.07 19:12:41 ERROR Downloaded https://repo1.maven.org/maven2/org/jline/jline-style/3.27.0/jline-style-3.27.0-sources.jar
+2024.11.07 19:12:41 ERROR Downloading https://repo1.maven.org/maven2/org/scala-sbt/librarymanagement-ivy_2.12/1.10.2/librarymanagement-ivy_2.12-1.10.2-sources.jar
+2024.11.07 19:12:41 ERROR Downloading https://repo1.maven.org/maven2/org/scala-sbt/util-position_2.12/1.10.3/util-position_2.12-1.10.3-sources.jar
+2024.11.07 19:12:41 ERROR Downloaded https://repo1.maven.org/maven2/org/scala-sbt/util-interface/1.10.3/util-interface-1.10.3-sources.jar
+2024.11.07 19:12:41 ERROR Downloaded https://repo1.maven.org/maven2/org/scala-sbt/zinc-classfile_2.12/1.10.3/zinc-classfile_2.12-1.10.3-sources.jar
+2024.11.07 19:12:41 ERROR Downloaded https://repo1.maven.org/maven2/org/scala-sbt/util-position_2.12/1.10.3/util-position_2.12-1.10.3-sources.jar
+2024.11.07 19:12:41 ERROR Downloaded https://repo1.maven.org/maven2/org/scala-sbt/librarymanagement-ivy_2.12/1.10.2/librarymanagement-ivy_2.12-1.10.2-sources.jar
+2024.11.07 19:12:41 ERROR Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.20/scala-reflect-2.12.20-sources.jar
+2024.11.07 19:12:41 ERROR Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.20/scala-compiler-2.12.20-sources.jar
+2024.11.07 19:12:41 INFO  [success] Generated .bloop/csci3155_project3_f20_challenge_with_mods-build.json
+2024.11.07 19:12:41 INFO  [success] Total time: 2 s, completed Nov 7, 2024, 7:12:42 PM
+2024.11.07 19:12:43 ERROR /Users/bradrichardson/Desktop/csci3155_project3_f20_challenge_with_mods/build.sbt:60: warning: method zip in object IO is deprecated (since 1.3.2): Please specify whether to use a static timestamp
+2024.11.07 19:12:43 ERROR     IO.zip(submissionFilePairs , new File(zipFileAbsPath))
+2024.11.07 19:12:43 ERROR        ^
+2024.11.07 19:12:44 INFO  [info] loading settings for project csci3155_project3_f20_challenge_with_mods from build.sbt ...
+2024.11.07 19:12:44 INFO  [info] set current project to GameTest (in build file:/Users/bradrichardson/Desktop/csci3155_project3_f20_challenge_with_mods/)
+2024.11.07 19:12:44 INFO  [success] Generated .bloop/csci3155_project3_f20_challenge_with_mods.json
+2024.11.07 19:12:44 INFO  [success] Generated .bloop/csci3155_project3_f20_challenge_with_mods-test.json
+2024.11.07 19:12:44 INFO  [success] Total time: 0 s, completed Nov 7, 2024, 7:12:44 PM
+2024.11.07 19:12:44 INFO  
+2024.11.07 19:12:44 INFO  time: ran 'sbt bloopInstall' in 8.8s
+2024.11.07 19:12:44 INFO  Attempting to connect to the build server...
+2024.11.07 19:12:44 INFO  Found a Bloop server running
+2024.11.07 19:12:44 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/bradrichardson/Desktop/csci3155_project3_f20_challenge_with_mods/.metals/bsp.trace.json or /Users/bradrichardson/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.11.07 19:12:45 INFO  Attempting to connect to the build server...
+2024.11.07 19:12:45 INFO  Found a Bloop server running
+2024.11.07 19:12:45 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/bradrichardson/Desktop/csci3155_project3_f20_challenge_with_mods/project/.metals/bsp.trace.json or /Users/bradrichardson/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.11.07 19:12:46 INFO  time: Connected to build server in 2.1s
+2024.11.07 19:12:46 INFO  Connected to Build server: Bloop v1.5.17-sc-2
+2024.11.07 19:12:45 INFO  running doctor check
+2024.11.07 19:12:45 INFO  java targets: csci3155_project3_f20_challenge_with_mods-build, csci3155_project3_f20_challenge_with_mods-test, csci3155_project3_f20_challenge_with_mods
+2024.11.07 19:12:51 ERROR Failed to resolve mtags for 2.12.8
+coursierapi.error.SimpleResolutionError$1: Error downloading org.scalameta:mtags_2.12.8:1.4.0
+  not found: /Users/bradrichardson/.ivy2/local/org.scalameta/mtags_2.12.8/1.4.0/ivys/ivy.xml
+  not found: https://repo1.maven.org/maven2/org/scalameta/mtags_2.12.8/1.4.0/mtags_2.12.8-1.4.0.pom
+  not found: /Users/bradrichardson/.ivy2/local/org.scalameta/mtags_2.12.8/1.4.0/ivys/ivy.xml
+  not found: https://oss.sonatype.org/content/repositories/public/org/scalameta/mtags_2.12.8/1.4.0/mtags_2.12.8-1.4.0.pom
+  not found: https://oss.sonatype.org/content/repositories/snapshots/org/scalameta/mtags_2.12.8/1.4.0/mtags_2.12.8-1.4.0.pom
+	at coursierapi.error.SimpleResolutionError.of(SimpleResolutionError.java:11)
+	at coursierapi.shaded.coursier.internal.api.ApiHelper$.simpleResError(ApiHelper.scala:371)
+	at coursierapi.shaded.coursier.internal.api.ApiHelper$.doFetch(ApiHelper.scala:415)
+	at coursierapi.shaded.coursier.internal.api.ApiHelper.doFetch(ApiHelper.scala)
+	at coursierapi.Fetch.fetchResult(Fetch.java:244)
+	at coursierapi.Fetch.fetch(Fetch.java:239)
+	at scala.meta.internal.metals.Embedded$.downloadDependency(Embedded.scala:301)
+	at scala.meta.internal.metals.Embedded$.downloadMtags(Embedded.scala:340)
+	at scala.meta.internal.metals.MtagsResolver$Default.$anonfun$resolve$3(MtagsResolver.scala:163)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1575)
+
+2024.11.07 19:12:53 WARN  Flyway upgrade recommended: H2 2.3.232 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.224.
+2024.11.07 19:12:57 INFO  time: indexed workspace in 11s
+2024.11.07 19:13:07 INFO  Disconnecting from Bloop session...
+2024.11.07 19:13:07 INFO  Shut down connection with build server.
+2024.11.07 19:13:07 INFO  Shut down connection with build server.
+2024.11.07 19:13:07 INFO  [0m[31m[E][0m Caught java.lang.InterruptedException
+2024.11.07 19:13:07 INFO  [0m[31m[E][0m Caught java.lang.InterruptedException
+2024.11.07 19:13:07 ERROR Bloop 'bsp' command exited with code 1. Something may be wrong with the current configuration.
+Running the [1mclean[0m sub-command to clear the working directory and remove caches might help.
+If the error persists, please report the issue as a bug and attach a log with increased verbosity by passing [1m-v -v -v[0m.
+2024.11.07 19:13:07 ERROR Bloop 'bsp' command exited with code 1. Something may be wrong with the current configuration.
+Running the [1mclean[0m sub-command to clear the working directory and remove caches might help.
+If the error persists, please report the issue as a bug and attach a log with increased verbosity by passing [1m-v -v -v[0m.
+2024.11.07 19:13:07 INFO  Attempting to connect to the build server...
+2024.11.07 19:13:07 INFO  No running Bloop server found, starting one.
+2024.11.07 19:13:09 INFO  Starting compilation server
+2024.11.07 19:13:10 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/bradrichardson/Desktop/csci3155_project3_f20_challenge_with_mods/.metals/bsp.trace.json or /Users/bradrichardson/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.11.07 19:13:10 INFO  Attempting to connect to the build server...
+2024.11.07 19:13:10 INFO  Found a Bloop server running
+2024.11.07 19:13:10 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/bradrichardson/Desktop/csci3155_project3_f20_challenge_with_mods/project/.metals/bsp.trace.json or /Users/bradrichardson/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.11.07 19:13:11 INFO  time: Connected to build server in 3.36s
+2024.11.07 19:13:11 INFO  Connected to Build server: Bloop v2.0.3
+2024.11.07 19:13:11 INFO  running doctor check
+2024.11.07 19:13:11 INFO  java targets: csci3155_project3_f20_challenge_with_mods-build, csci3155_project3_f20_challenge_with_mods-test, csci3155_project3_f20_challenge_with_mods
+2024.11.07 19:13:12 INFO  time: indexed workspace in 1.39s
+2024.11.07 19:13:26 INFO  time: code lens generation in 2.15s
+2024.11.07 19:13:31 INFO  running '/opt/homebrew/bin/sbt -Dbloop.export-jar-classifiers=sources bloopInstall'
+2024.11.07 19:13:33 ERROR Nov 07, 2024 7:13:32 PM org.jline.utils.Log logr
+2024.11.07 19:13:33 ERROR WARNING: Unable to create a system terminal, creating a dumb terminal (enable debug logging for more information)
+2024.11.07 19:13:33 INFO  [info] welcome to sbt 1.10.3 (Homebrew Java 23.0.1)
+2024.11.07 19:13:33 INFO  [info] loading settings for project csci3155_project3_f20_challenge_with_mods-build-build from metals.sbt ...
+2024.11.07 19:13:33 INFO  [info] loading project definition from /Users/bradrichardson/Desktop/csci3155_project3_f20_challenge_with_mods/project/project
+2024.11.07 19:13:34 INFO  
+2024.11.07 19:13:34 INFO    | => csci3155_project3_f20_challenge_with_mods-build-build / Compile / compileIncremental 0s
+2024.11.07 19:13:34 INFO  [info] loading settings for project csci3155_project3_f20_challenge_with_mods-build from metals.sbt ...
+2024.11.07 19:13:34 INFO  [info] loading project definition from /Users/bradrichardson/Desktop/csci3155_project3_f20_challenge_with_mods/project
+2024.11.07 19:13:34 INFO  
+2024.11.07 19:13:34 INFO    | => csci3155_project3_f20_challenge_with_mods-build / updateSbtClassifiers 0s
+2024.11.07 19:13:35 INFO  [success] Generated .bloop/csci3155_project3_f20_challenge_with_mods-build.json
+2024.11.07 19:13:35 INFO  
+2024.11.07 19:13:35 INFO    | => csci3155_project3_f20_challenge_with_mods-build / updateSbtClassifiers 0s
+2024.11.07 19:13:35 INFO  [success] Total time: 1 s, completed Nov 7, 2024, 7:13:35 PM
+2024.11.07 19:13:36 INFO  [info] loading settings for project csci3155_project3_f20_challenge_with_mods from build.sbt ...
+2024.11.07 19:13:36 INFO  [info] set current project to GameTest (in build file:/Users/bradrichardson/Desktop/csci3155_project3_f20_challenge_with_mods/)
+2024.11.07 19:13:36 INFO  [success] Generated .bloop/csci3155_project3_f20_challenge_with_mods.json
+2024.11.07 19:13:36 INFO  [success] Generated .bloop/csci3155_project3_f20_challenge_with_mods-test.json
+2024.11.07 19:13:36 INFO  [success] Total time: 0 s, completed Nov 7, 2024, 7:13:36 PM
+2024.11.07 19:13:36 INFO  
+2024.11.07 19:13:36 INFO  time: ran 'sbt bloopInstall' in 5.03s
+2024.11.07 19:13:36 INFO  Disconnecting from Bloop session...
+2024.11.07 19:13:36 INFO  Shut down connection with build server.
+2024.11.07 19:13:36 INFO  Shut down connection with build server.
+2024.11.07 19:13:36 INFO  Attempting to connect to the build server...
+2024.11.07 19:13:36 INFO  Found a Bloop server running
+2024.11.07 19:13:36 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/bradrichardson/Desktop/csci3155_project3_f20_challenge_with_mods/.metals/bsp.trace.json or /Users/bradrichardson/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.11.07 19:13:37 INFO  Attempting to connect to the build server...
+2024.11.07 19:13:37 INFO  Found a Bloop server running
+2024.11.07 19:13:36 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/bradrichardson/Desktop/csci3155_project3_f20_challenge_with_mods/project/.metals/bsp.trace.json or /Users/bradrichardson/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.11.07 19:13:36 INFO  time: Connected to build server in 0.23s
+2024.11.07 19:13:36 INFO  Connected to Build server: Bloop v2.0.3
+2024.11.07 19:13:36 INFO  running doctor check
+2024.11.07 19:13:36 INFO  java targets: csci3155_project3_f20_challenge_with_mods-build, csci3155_project3_f20_challenge_with_mods-test, csci3155_project3_f20_challenge_with_mods
+2024.11.07 19:13:38 INFO  time: indexed workspace in 1.18s
+2024.11.07 19:13:52 INFO  Shutting down server
+2024.11.07 19:13:52 INFO  shutting down Metals
+2024.11.07 19:13:52 INFO  Shut down connection with build server.
+2024.11.07 19:13:52 INFO  Shut down connection with build server.
+2024.11.07 19:13:52 INFO  Exiting server
+2024.11.07 19:14:13 INFO  Started: Metals version 1.4.0 in folders '/Users/bradrichardson/Desktop/csci3155_project3_f20_challenge_with_mods' for client Visual Studio Code 1.95.2.
+2024.11.07 19:14:14 WARN  Flyway upgrade recommended: H2 2.3.232 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.224.
+2024.11.07 19:14:14 INFO  Attempting to connect to the build server...
+2024.11.07 19:14:14 INFO  Found a Bloop server running
+2024.11.07 19:14:14 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/bradrichardson/Desktop/csci3155_project3_f20_challenge_with_mods/.metals/bsp.trace.json or /Users/bradrichardson/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.11.07 19:14:14 INFO  Attempting to connect to the build server...
+2024.11.07 19:14:14 INFO  Found a Bloop server running
+2024.11.07 19:14:14 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/bradrichardson/Desktop/csci3155_project3_f20_challenge_with_mods/project/.metals/bsp.trace.json or /Users/bradrichardson/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.11.07 19:14:14 INFO  time: Connected to build server in 0.38s
+2024.11.07 19:14:14 INFO  Connected to Build server: Bloop v2.0.3
+2024.11.07 19:14:14 INFO  running doctor check
+2024.11.07 19:14:14 INFO  java targets: csci3155_project3_f20_challenge_with_mods-build, csci3155_project3_f20_challenge_with_mods-test, csci3155_project3_f20_challenge_with_mods
+2024.11.07 19:14:17 WARN  Flyway upgrade recommended: H2 2.3.232 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.224.
+2024.11.07 19:14:17 INFO  time: indexed workspace in 2.86s
+2024.11.07 19:17:08 INFO  Shutting down server
+2024.11.07 19:17:08 INFO  shutting down Metals
+2024.11.07 19:17:08 INFO  Shut down connection with build server.
+2024.11.07 19:17:08 INFO  Shut down connection with build server.
+2024.11.07 19:17:08 INFO  Exiting server
+2024.11.08 10:28:39 INFO  Started: Metals version 1.4.0 in folders '/Users/bradrichardson/Desktop/csci3155_project3_f20_challenge_with_mods' for client Visual Studio Code 1.95.2.
+2024.11.08 10:28:41 WARN  Flyway upgrade recommended: H2 2.3.232 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.224.
+2024.11.08 10:28:41 INFO  Attempting to connect to the build server...
+2024.11.08 10:28:41 INFO  No running Bloop server found, starting one.
+2024.11.08 10:28:43 INFO  Starting compilation server
+2024.11.08 10:28:44 INFO  Shutting down server
+2024.11.08 10:28:44 INFO  shutting down Metals
+2024.11.08 10:28:44 INFO  Exiting server
+2024.11.11 12:46:09 INFO  Started: Metals version 1.4.0 in folders '/Users/bradrichardson/Desktop/mini_project3' for client Cursor 1.93.1.
+2024.11.11 12:46:09 WARN  Flyway upgrade recommended: H2 2.3.232 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.224.
+2024.11.11 12:46:10 INFO  Attempting to connect to the build server...
+2024.11.11 12:46:10 INFO  No running Bloop server found, starting one.
+2024.11.11 12:46:11 INFO  Starting compilation server
+2024.11.11 12:46:12 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/bradrichardson/Desktop/mini_project3/.metals/bsp.trace.json or /Users/bradrichardson/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.11.11 12:46:12 INFO  Attempting to connect to the build server...
+2024.11.11 12:46:12 INFO  Found a Bloop server running
+2024.11.11 12:46:12 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/bradrichardson/Desktop/mini_project3/project/.metals/bsp.trace.json or /Users/bradrichardson/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.11.11 12:46:12 INFO  time: Connected to build server in 2.53s
+2024.11.11 12:46:12 INFO  Connected to Build server: Bloop v2.0.3
+2024.11.11 12:46:12 INFO  running doctor check
+2024.11.11 12:46:12 INFO  java targets: csci3155_project3_f20_challenge_with_mods-test, csci3155_project3_f20_challenge_with_mods, csci3155_project3_f20_challenge_with_mods-build
+2024.11.11 12:46:15 WARN  Flyway upgrade recommended: H2 2.3.232 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.224.
+2024.11.11 12:46:15 INFO  time: indexed workspace in 2.91s
+2024.11.11 12:46:16 INFO  Shutting down server
+2024.11.11 12:46:16 INFO  shutting down Metals
+2024.11.11 12:46:16 INFO  Shut down connection with build server.
+2024.11.11 12:46:16 INFO  Shut down connection with build server.
+2024.11.11 12:46:16 INFO  Exiting server
+2024.11.11 12:46:18 INFO  Started: Metals version 1.4.0 in folders '/Users/bradrichardson/Desktop/mini_project3' for client Cursor 1.93.1.
+Nov 11, 2024 12:46:19 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2024.11.11 12:46:20 WARN  Flyway upgrade recommended: H2 2.3.232 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.224.
+2024.11.11 12:46:20 INFO  Attempting to connect to the build server...
+2024.11.11 12:46:20 INFO  Found a Bloop server running
+2024.11.11 12:46:20 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/bradrichardson/Desktop/mini_project3/.metals/bsp.trace.json or /Users/bradrichardson/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.11.11 12:46:20 INFO  Attempting to connect to the build server...
+2024.11.11 12:46:20 INFO  Found a Bloop server running
+2024.11.11 12:46:20 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/bradrichardson/Desktop/mini_project3/project/.metals/bsp.trace.json or /Users/bradrichardson/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.11.11 12:46:20 INFO  time: Connected to build server in 0.33s
+2024.11.11 12:46:20 INFO  Connected to Build server: Bloop v2.0.3
+2024.11.11 12:46:20 INFO  running doctor check
+2024.11.11 12:46:20 INFO  java targets: csci3155_project3_f20_challenge_with_mods-test, csci3155_project3_f20_challenge_with_mods, csci3155_project3_f20_challenge_with_mods-build
+2024.11.11 12:46:22 WARN  Flyway upgrade recommended: H2 2.3.232 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.224.
+2024.11.11 12:46:22 INFO  time: indexed workspace in 2.32s
+2024.11.11 12:46:52 INFO  Shutting down server
+2024.11.11 12:46:52 INFO  shutting down Metals
+2024.11.11 12:46:52 INFO  Shut down connection with build server.
+2024.11.11 12:46:52 INFO  Shut down connection with build server.
+2024.11.11 12:46:52 INFO  Exiting server
+2024.11.11 12:47:10 INFO  Started: Metals version 1.4.0 in folders '/Users/bradrichardson/Desktop/mini_project3' for client Cursor 1.93.1.
+Nov 11, 2024 12:47:11 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2024.11.11 12:47:11 WARN  Flyway upgrade recommended: H2 2.3.232 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.224.
+2024.11.11 12:47:11 INFO  Attempting to connect to the build server...
+2024.11.11 12:47:11 INFO  Found a Bloop server running
+2024.11.11 12:47:11 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/bradrichardson/Desktop/mini_project3/.metals/bsp.trace.json or /Users/bradrichardson/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.11.11 12:47:11 INFO  Attempting to connect to the build server...
+2024.11.11 12:47:11 INFO  Found a Bloop server running
+2024.11.11 12:47:12 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/bradrichardson/Desktop/mini_project3/project/.metals/bsp.trace.json or /Users/bradrichardson/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.11.11 12:47:11 INFO  time: Connected to build server in 0.32s
+2024.11.11 12:47:11 INFO  Connected to Build server: Bloop v2.0.3
+2024.11.11 12:47:12 INFO  running doctor check
+2024.11.11 12:47:12 INFO  java targets: csci3155_project3_f20_challenge_with_mods-test, csci3155_project3_f20_challenge_with_mods, csci3155_project3_f20_challenge_with_mods-build
+2024.11.11 12:47:14 WARN  Flyway upgrade recommended: H2 2.3.232 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.224.
+2024.11.11 12:47:14 INFO  time: indexed workspace in 2.34s
+2024.11.11 12:51:42 INFO  no build target found for /Users/bradrichardson/Desktop/mini_project3/src/main/scala/edu/colorado/csci3155/project3/ArcadeGame.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2024.11.11 12:51:42 INFO  no build target found for /Users/bradrichardson/Desktop/mini_project3/src/main/scala/edu/colorado/csci3155/project3/ArcadeGame.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2024.11.11 12:51:45 INFO  time: code lens generation in 2.81s
+2024.11.11 12:51:45 INFO  no build target found for /Users/bradrichardson/Desktop/mini_project3/src/main/scala/edu/colorado/csci3155/project3/ArcadeGame.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2024.11.11 12:51:45 INFO  no build target found for /Users/bradrichardson/Desktop/mini_project3/src/main/scala/edu/colorado/csci3155/project3/ArcadeGame.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2024.11.11 12:52:03 INFO  no build target found for /Users/bradrichardson/Desktop/mini_project3/src/main/scala/edu/colorado/csci3155/project3/ArcadeGame.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2024.11.11 12:52:03 INFO  no build target found for /Users/bradrichardson/Desktop/mini_project3/src/main/scala/edu/colorado/csci3155/project3/ArcadeGame.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2024.11.11 12:52:07 INFO  no build target found for /Users/bradrichardson/Desktop/mini_project3/src/main/scala/edu/colorado/csci3155/project3/ArcadeGame.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2024.11.11 12:52:25 INFO  no build target found for /Users/bradrichardson/Desktop/mini_project3/src/main/scala/edu/colorado/csci3155/project3/ArcadeGame.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2024.11.11 12:52:25 INFO  no build target found for /Users/bradrichardson/Desktop/mini_project3/src/main/scala/edu/colorado/csci3155/project3/ArcadeGame.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2024.11.11 12:52:26 INFO  no build target found for /Users/bradrichardson/Desktop/mini_project3/src/main/scala/edu/colorado/csci3155/project3/ArcadeGame.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2024.11.11 12:53:42 INFO  no build target found for /Users/bradrichardson/Desktop/mini_project3/src/main/scala/edu/colorado/csci3155/project3/ArcadeGame.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2024.11.11 12:53:42 INFO  no build target found for /Users/bradrichardson/Desktop/mini_project3/src/main/scala/edu/colorado/csci3155/project3/ArcadeGame.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2024.11.11 12:54:23 INFO  no build target found for /Users/bradrichardson/Desktop/mini_project3/src/main/scala/edu/colorado/csci3155/project3/ArcadeGame.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2024.11.11 12:57:09 INFO  no build target found for /Users/bradrichardson/Desktop/mini_project3/src/main/scala/edu/colorado/csci3155/project3/ArcadeGame.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2024.11.11 12:57:11 INFO  no build target found for /Users/bradrichardson/Desktop/mini_project3/src/main/scala/edu/colorado/csci3155/project3/ArcadeGame.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2024.11.11 12:57:11 INFO  no build target found for /Users/bradrichardson/Desktop/mini_project3/src/main/scala/edu/colorado/csci3155/project3/ArcadeGame.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2024.11.11 12:57:14 INFO  Shutting down server
+2024.11.11 12:57:14 INFO  shutting down Metals
+2024.11.11 12:57:14 INFO  Shut down connection with build server.
+2024.11.11 12:57:14 INFO  Shut down connection with build server.
+2024.11.11 12:57:14 INFO  Exiting server
+2024.11.11 13:00:41 INFO  Started: Metals version 1.4.0 in folders '/Users/bradrichardson/Desktop/mini_project3' for client Visual Studio Code 1.95.2.
+2024.11.11 13:00:41 WARN  Flyway upgrade recommended: H2 2.3.232 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.224.
+2024.11.11 13:00:41 INFO  Attempting to connect to the build server...
+2024.11.11 13:00:41 INFO  Found a Bloop server running
+2024.11.11 13:00:42 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/bradrichardson/Desktop/mini_project3/.metals/bsp.trace.json or /Users/bradrichardson/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.11.11 13:00:41 INFO  Attempting to connect to the build server...
+2024.11.11 13:00:41 INFO  Found a Bloop server running
+2024.11.11 13:00:41 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/bradrichardson/Desktop/mini_project3/project/.metals/bsp.trace.json or /Users/bradrichardson/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.11.11 13:00:42 INFO  time: Connected to build server in 0.37s
+2024.11.11 13:00:42 INFO  Connected to Build server: Bloop v2.0.3
+2024.11.11 13:00:42 INFO  running doctor check
+2024.11.11 13:00:42 INFO  java targets: csci3155_project3_f20_challenge_with_mods-test, csci3155_project3_f20_challenge_with_mods, mini_project3-build
+2024.11.11 13:00:44 WARN  Flyway upgrade recommended: H2 2.3.232 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.224.
+2024.11.11 13:00:44 INFO  time: indexed workspace in 2.59s
+Nov 11, 2024 1:00:55 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Nov 11, 2024 1:04:38 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
